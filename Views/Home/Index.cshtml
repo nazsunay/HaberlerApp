@@ -1,0 +1,13 @@
+﻿@model List<Haber>
+
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<h1 class="display-4">Haberler</h1>
+
+@foreach (var haber in Model)
+{
+    <h5><a href="/Home/Detay/@haber.Slug">@haber.Baslik</a></h5>
+    <hr />
+}

@@ -1,0 +1,1 @@
+<p>Bu da <strong style="color: pink;">ikinci</strong> haber</p>
